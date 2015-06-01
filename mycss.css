@@ -1,0 +1,27 @@
+.left-panel {
+	position: absolute;
+	width:75%;
+	left: 0px;
+}
+
+.right-panel {
+	position: absolute;
+	width:25%;
+	right:0px;
+}
+
+.center {
+	margin: 0 auto;
+	max-width: 80%;
+	padding: 20px;
+	color: red;
+	text-align: center;
+}
+
+html { 
+  background: url(bg/1.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}

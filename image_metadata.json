@@ -1,0 +1,20 @@
+[
+    {
+        "id": "1",
+        "name": "bridge.jpg",
+        "tags": [
+            "bridge",
+            "landscape"
+        ],
+        "desciption": "Be awesome"
+    },
+    {
+        "id": "2",
+        "name": "mountain.jpg",
+        "tags": [
+            "bridge",
+            "landscape"
+        ],
+        "desciption": "Be awesome"
+    }
+]
