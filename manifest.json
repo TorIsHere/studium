@@ -1,0 +1,13 @@
+{
+  "manifest_version": 2,
+  "name": "Studium",
+  "description": "This extension shows a Google Image search result for the current page",
+  "version": "1.0",
+
+  "browser_action": {
+    "default_icon": "icon.png"
+  },
+  "chrome_url_overrides" : {
+    "newtab": "Studium.html"
+  }
+}
