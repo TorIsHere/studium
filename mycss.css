@@ -1,3 +1,11 @@
+body { 
+  background: url(bg/sea-sky-beach-holiday.jpg) no-repeat 50% 50% fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  font-family: 'Source Sans Pro', sans-serif;
+}
 .left-panel {
 	position: absolute;
 	width:75%;
@@ -10,18 +18,35 @@
 	right:0px;
 }
 
-.center {
-	margin: 0 auto;
-	max-width: 80%;
-	padding: 20px;
-	color: red;
+main {
+	background: white;
+  	position:relative;
+}
+
+main .center {
+  	position: fixed;
+  	top: 50%;
+  	left: 15%;
+  	transform: translate(-15%, -50%);
+  	overflow: auto;
+  	width: 65%;
+}
+
+.text-shadow {
+	text-shadow: 0 1px 0 black;
+}
+
+.quote {
+	color: white;
+	font-size: 64px;
 	text-align: center;
 }
 
-html { 
-  background: url(bg/1.jpg) no-repeat center center fixed; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+.darken {
+  background-image: 
+    linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url(bg/bustool.jpg);
 }
