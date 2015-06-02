@@ -9,9 +9,16 @@ function replaceContentInContainer(matchClass, content) {
         }
     }
 }
-function foo(){
-	replaceContentInContainer("center", "Say HI");
 
+function chageBackground(background){
+	$('body').css({
+    	background: "url(" + background + ") no-repeat center center fixed", 
+    	background-size: "cover"
+	});
+}
+
+function foo(){
+	chageBackground("bg/sea-sky-beach-holiday.jpg");
 }
 $(document).ready(function(){
 	foo();
