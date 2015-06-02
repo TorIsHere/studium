@@ -4,15 +4,62 @@
         "name": "bridge.jpg",
         "tags": [
             "bridge",
+            "ocean",
             "landscape"
         ],
         "desciption": "Be awesome"
     },
     {
         "id": "2",
-        "name": "mountain.jpg",
+        "name": "bustool.jpg",
         "tags": [
-            "bridge",
+            "ocean",
+            "furniture"
+        ],
+        "desciption": "Be awesome"
+    },
+    {
+        "id": "3",
+        "name": "cliff.jpg",
+        "tags": [
+            "cliff",
+            "landscape"
+        ],
+        "desciption": "Be awesome"
+    },
+    {
+        "id": "4",
+        "name": "cowl.jpg",
+        "tags": [
+            "car",
+            "hipster"
+        ],
+        "desciption": "Be awesome"
+    },
+    {
+        "id": "5",
+        "name": "sea-sky-beach-holiday.jpg",
+        "tags": [
+            "beach",
+            "car"
+        ],
+        "desciption": "Be awesome"
+    },
+    {
+        "id": "6",
+        "name": "tram.jpg",
+        "tags": [
+            "moutain",
+            "landscape"
+        ],
+        "desciption": "Be awesome"
+    },
+    {
+        "id": "7",
+        "name": "under-the-sky.jpg",
+        "tags": [
+            "moutain",
+            "village",
             "landscape"
         ],
         "desciption": "Be awesome"
