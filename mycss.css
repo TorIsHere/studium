@@ -39,7 +39,9 @@ main .center {
 .quote {
 	color: white;
 	font-size: 64px;
+	font-family: 'Raleway', sans-serif;
 	text-align: center;
+	text-shadow: 1px 1px 1px black;
 }
 
 .darken {
