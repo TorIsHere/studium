@@ -19,17 +19,16 @@ body {
 }
 
 main {
-	background: white;
-  	position:relative;
+  position:relative;
 }
 
 main .center {
-  	position: fixed;
-  	top: 50%;
-  	left: 15%;
-  	transform: translate(-15%, -50%);
-  	overflow: auto;
-  	width: 65%;
+	position: fixed;
+	top: 50%;
+	left: 15%;
+	transform: translate(-15%, -50%);
+	overflow: auto;
+	width: 65%;
 }
 
 .text-shadow {
@@ -42,6 +41,14 @@ main .center {
 	font-family: 'Raleway', sans-serif;
 	text-align: center;
 	text-shadow: 1px 1px 1px black;
+}
+
+.quoted-person {
+  color: -white;
+  font-size: 20px;
+  text-align: right;
+  font-family: 'Inconsolata', ;
+  text-shadow: 0px 1px 0px black;
 }
 
 .darken {
