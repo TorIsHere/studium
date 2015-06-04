@@ -67,9 +67,19 @@ var image_metadata =
     }
 ];
 
+var clientId = '837050751313';
+var apiKey = 'AIzaSyDIKFCWIJwuZYRsh-k_0j8u0_DmoqmGt9U';
+var scopes = 'https://www.googleapis.com/auth/plus.me';
+
 function randomBackground(){
 	var randomID = Math.floor((Math.random() * image_metadata.length))
 	return "bg/" + image_metadata[randomID].name
+}
+function OnLoadCallback(){
+    console.log("OnLoadCallback")
+    chageBackground(randomBackground());
+    gapi.client.setApiKey('AIzaSyDIKFCWIJwuZYRsh-k_0j8u0_DmoqmGt9U');
+    addTaskPanel();
 }
 
 function chageBackground(background){
@@ -85,9 +95,33 @@ function chageBackground(background){
 	});
 }
 
-function foo(){
-	chageBackground(randomBackground());
+function addTaskPanel(){
+    // create the necessary elements
+    var container = document.getElementById('task_panel');
+    container.innerHTML = '';
+
+    var checkbox = document.createElement('input');
+    checkbox.type = "checkbox";
+    checkbox.name = "name";
+    checkbox.value = "value";
+    checkbox.id = "id";
+
+    var label = document.createElement('label')
+    label.htmlFor = "id";
+    label.appendChild(document.createTextNode('text for label after checkbox'));
+
+    container.appendChild(checkbox);
+    container.appendChild(label);
+}
+
+function init(){
+    chrome.identity.getAuthToken({'interactive':true}, function(token){
+        console.log(token)
+
+    });
 }
 $(document).ready(function(){
-	foo();
+	init();
 })
+
+
